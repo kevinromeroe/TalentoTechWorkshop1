@@ -1,5 +1,5 @@
 document.getElementById('generateUsers').addEventListener('click', () => {
-    fetch('http://localhost:5000/generate-users/100000')  // Ajusta la cantidad de usuarios si es necesario
+    fetch('http://localhost:5000/generate-users/500000')  // Ajusta la cantidad de usuarios si es necesario
         .then(response => response.json())
         .then(data => {
             // Conteo de dominios
